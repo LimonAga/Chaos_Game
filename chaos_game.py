@@ -11,6 +11,7 @@ WIDTH, HEIGHT = info.current_w, info.current_h
 BG_COLOR = 'black'
 radius = 1
 n = 3 # Number of staring points
+percent = 0.5
 
 #screen setup
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
@@ -49,7 +50,7 @@ def chaos_game():
         random_point, color = points[random_index], colors[random_index]
 
         # Move halfway towards the chosen vertex
-        current_point = pygame.math.Vector2.lerp(current_point, random_point, 0.5)
+        current_point = pygame.math.Vector2.lerp(current_point, random_point, percent)
         pygame.draw.circle(screen, color, (round(current_point.x), round(current_point.y)), radius)
 
 points, colors = reset(n)
