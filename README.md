@@ -1,7 +1,7 @@
 # Chaos_Game
 A simple implementation of the chaos game in pygame.
 
-![Local Image](images/triangle.png)
+![n=3](images/triangle.png)
 
 # How Does Chaos Game work?
 1. **Choose Starting Points:**
@@ -19,5 +19,6 @@ A simple implementation of the chaos game in pygame.
 5. **Repeat:**
    - Repeat last 2 steps.
 
-![Local Image](images/rectangle.png)
-![Local Image](images/pentagon.png)
+![n=4](images/rectangle.png)
+
+![n=5](images/pentagon.png)
