@@ -1,5 +1,5 @@
 # Chaos_Game
-A simple implementation of the chaos game in pygame.
+A simple implementation of the chaos game in pygame and an animated version.
 
 ![n=3](images/triangle.png)
 
