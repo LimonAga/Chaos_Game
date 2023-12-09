@@ -19,6 +19,6 @@ A simple implementation of the chaos game in pygame.
 5. **Repeat:**
    - Repeat last 2 steps.
 
-![n=4](images/rectangle.png)
+![animated version](images/animated.gif)
 
 ![n=5](images/pentagon.png)
